@@ -42,16 +42,16 @@
     background-color: #bbbcbe;
 }
 
-.operators {
+.operators, .equals {
     background-color: #df974c;
     color: white;
 }
 
-.operators:hover {
+.operators:hover, .equals:hover {
     background-color: #dfb07e;
 }
   
-.operators:active {
+.operators:active, .equals:active {
     background-color: #dd8d37;
 }
 
