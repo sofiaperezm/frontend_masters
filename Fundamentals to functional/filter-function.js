@@ -78,4 +78,9 @@ function isPresent(arr) {
     return (arr.present === true)
 }
 
-videoData.filter(isPresent)
+const suspects = videoData.filter(isPresent)
+
+const suspectsName = suspects.map(suspect => {
+    return suspect.name
+})
+
